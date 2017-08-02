@@ -1,0 +1,23 @@
+RESPONSE URI FOR SEQUENCE ID 00015
+==================================
+https://sandbox-quickbooks.api.intuit.com/v3/company/123145866267059/customer?minorversion=8
+
+RESPONSE HEADERS
+================
+Server: nginx
+Date: Wed, 02 Aug 2017 02:23:37 GMT
+Content-Type: application/xml;charset=UTF-8
+Content-Length: 1251
+Connection: close
+Strict-Transport-Security: max-age=15552000
+intuit_tid: 2b20c812-5c41-e2c4-1599-4c5583eade75
+Set-Cookie: JSESSIONID=4E9BEB4A9A1AF0A0081621903E451090.c50-pprdsbxas801; Path=/; Secure; HttpOnly
+QBO-Version: 1707.889
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Expires: 0
+Service-Time: total=318, db=166
+
+RESPONSE BODY
+=============
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2017-08-01T19:23:36.815-07:00"><Customer domain="QBO" sparse="false"><Id>2</Id><SyncToken>2</SyncToken><MetaData><CreateTime>2017-06-22T16:49:28-07:00</CreateTime><LastUpdatedTime>2017-08-01T19:23:36-07:00</LastUpdatedTime></MetaData><GivenName>Arun E</GivenName><FamilyName>Jayaprakash</FamilyName><FullyQualifiedName>Nathan Research 2, Inc</FullyQualifiedName><CompanyName>Natahn Research 2, Inc</CompanyName><DisplayName>Nathan Research 2, Inc</DisplayName><PrintOnCheckName>Nathan Research2</PrintOnCheckName><Active>true</Active><PrimaryPhone><FreeFormNumber>(214) 100-1000</FreeFormNumber></PrimaryPhone><PrimaryEmailAddr><Address>arunej@nathanr.com</Address></PrimaryEmailAddr><Taxable>false</Taxable><BillAddr><Id>3</Id><Line1>9116 Choctaw Dr.</Line1><City>Dallas</City><CountrySubDivisionCode>TX</CountrySubDivisionCode><PostalCode>70010</PostalCode></BillAddr><Job>false</Job><BillWithParent>false</BillWithParent><Balance>85.00</Balance><BalanceWithJobs>85.00</BalanceWithJobs><CurrencyRef name="United States Dollar">USD</CurrencyRef><PreferredDeliveryMethod>Print</PreferredDeliveryMethod></Customer></IntuitResponse>
+

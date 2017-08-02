@@ -1,0 +1,18 @@
+REQUEST URI FOR SEQUENCE ID 00002
+==================================
+https://sandbox-quickbooks.api.intuit.com/v3/company/123145866267059/query?minorversion=8
+
+REQUEST HEADERS
+================
+Authorization: Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..PoOnEwOrBHUfOHkZWqSi5w.cIAggjVPL8SjZvBmk4L9e2Ddk5R34DW1FFgo_olWyG7BscNBx8wGAY4iVcXIjK_IwKEr-lI_zEFaudEJU_obQ6yNDFpqJtWuS6th8w-9swIMOOPCGTpGRdv9mEOnp7_viVATIXNVP8B1VvNTmqaucw8bMBVsJR3S2L96MSVWrl1ly91vE2Tbd4AuYsK_hftRIBbHcc2H-HaEMwntXU9JVFYX1EsN4oE0gjWGgMSJfgnnM_8cUilamS0NSMlKFouAei7rIhp6st-wGmxXnUwfEfQPmhuDE4IAz3yboXMXT8uJfYlz4eYKANK7i2Duzi2mHM2WRzlaOt8UF9T2nYxsrprmV0o-ioMT6XHaVNp-0_OB5FJWBg3veoX-L3UCYjRLEZdA4Y3ZnPsLKETivYAQJYKoWqQA2majpEY-rw4_1yKjpLrZFSgm1ts5sVwd0fHASHal1qkB0W8kgIZLdeWTeiX49dRNMhi8607dclX4wflXbvJ3qT7rDvAuUwzEHch11rV_zHLFRr1nGgfYhulWG07pM-qPzFdGF0vOszBbEUJYlDHGSgcHJg8oj_6fW3W-qBInZyRFy96-ZuneQViAQiaQVgVxBT7u60AsYPRruFSCB7aSHGHYOpD1zv-0-NfFfyHMgD2Pbt7KPymsyqmU_g2CJ4-bLHQen01DjU7ad4Z0gH9OkZT9XqMuyWPrp5J4.W3aipO_2WuWYnUyEsOYl8Q
+host: sandbox-quickbooks.api.intuit.com
+user-agent: V3PHPSDK3.3.0
+accept: */*
+connection: close
+content-type: application/text
+content-length: 25
+
+REQUEST BODY
+=============
+SELECT * FROM CompanyInfo
+
